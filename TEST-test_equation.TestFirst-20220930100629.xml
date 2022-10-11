@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_equation.TestFirst-20220930100629" tests="1" file="test_equation.py" time="0.004" timestamp="2022-09-30T10:06:29" failures="1" errors="0" skipped="0">
+	<testcase classname="test_equation.TestFirst" name="test_find_x" time="0.004" timestamp="2022-09-30T10:06:29" file="test_equation.py" line="8">
+		<failure type="AssertionError" message="'PT có 2 nghiệm phân biệt' != 'P có 2 nghiệm phân biệt'
+- PT có 2 nghiệm phân biệt
+?  -
++ P có 2 nghiệm phân biệt
+"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\Python\test_equation.py", line 10, in test_find_x
+    self.assertEqual(equation.find_x(*args), "P có 2 nghiệm phân biệt")
+AssertionError: 'PT có 2 nghiệm phân biệt' != 'P có 2 nghiệm phân biệt'
+- PT có 2 nghiệm phân biệt
+?  -
++ P có 2 nghiệm phân biệt
+
+]]></failure>
+	</testcase>
+</testsuite>
