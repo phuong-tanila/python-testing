@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_fibonacci.TestFibo-20220930100629" tests="4" file="test_fibonacci.py" time="0.002" timestamp="2022-09-30T10:06:29" failures="2" errors="0" skipped="0">
+	<testcase classname="test_fibonacci.TestFibo" name="test_fibo_value_at_index_3" time="0.001" timestamp="2022-09-30T10:06:29" file="test_fibonacci.py" line="24"/>
+	<testcase classname="test_fibonacci.TestFibo" name="test_fibo_value_at_index_4" time="0.000" timestamp="2022-09-30T10:06:29" file="test_fibonacci.py" line="18"/>
+	<testcase classname="test_fibonacci.TestFibo" name="test_fibo_value_at_index_2" time="0.000" timestamp="2022-09-30T10:06:29" file="test_fibonacci.py" line="28">
+		<failure type="AssertionError" message="2 != 1"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\Python\test_fibonacci.py", line 29, in test_fibo_value_at_index_2
+    self.assertEqual(fibonacci.Fibo(2),1)
+AssertionError: 2 != 1
+]]></failure>
+	</testcase>
+	<testcase classname="test_fibonacci.TestFibo" name="test_fibo_value_at_index_negative" time="0.001" timestamp="2022-09-30T10:06:29" file="test_fibonacci.py" line="36">
+		<failure type="AssertionError" message="Exception not raised"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\Python\test_fibonacci.py", line 37, in test_fibo_value_at_index_negative
+    with self.assertRaises(Exception):
+AssertionError: Exception not raised
+]]></failure>
+	</testcase>
+</testsuite>

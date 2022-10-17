@@ -1,0 +1,20 @@
+{
+    "test1": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "result": "Phương trình vô nghiệm"
+    },
+    "test2": {
+        "a": 1,
+        "b": -3,
+        "c": 2,
+        "result": "Phương trình có 2 nghiệm phân biệt X1 = -1.0, X2 = -2.0"
+    },
+    "test3": {
+        "a": 1,
+        "b": -4,
+        "c": 4,
+        "result": "Phương trình có nghiệm kép X1 = X2 = 2.0"
+    }
+}
